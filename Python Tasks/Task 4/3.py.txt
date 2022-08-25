@@ -1,0 +1,12 @@
+Complete the print_full_name function in the editor below.
+
+print_full_name has the following parameters:
+
+    string first: the first name
+    string last: the last name
+
+
+ef print_full_name( a, b):
+    # Write your code here
+ print("Hello %s %s! You just delved into python."%(a,b))
+if __name__ == '__main__':

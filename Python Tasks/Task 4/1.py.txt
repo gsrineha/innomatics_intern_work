@@ -1,0 +1,18 @@
+Complete the swap_case function in the editor below.
+
+swap_case has the following parameters:
+
+    string s: the string to modify
+
+SOl-
+
+def swap_case(s):
+    Output = '';
+    for char in s:
+        if(char.isupper()==True):
+            Output += (char.lower());
+        elif(char.islower()==True):
+            Output += (char.upper());
+        else:
+            Output += char;
+    return Output;
